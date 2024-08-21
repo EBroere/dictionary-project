@@ -5,6 +5,10 @@ function App() {
     <div className="App">
       <header className="App-header">
         <p>Dictionary</p>
+
+        <a href="#" className="btn btn-primary">
+          Hello
+        </a>
       </header>
     </div>
   );
