@@ -1,12 +1,7 @@
-p {
+h1 {
+   font-family: "Zen Tokyo Zoo", system-ui;
   margin: 50px auto;
   text-align: center;
-  font-size: 100px;
-}
-
-.btn {
-  margin: 0px 50px 50px;
-  display: block;
-  justify-content: center;
-  
+  font-size: 150px;
+ 
 }
