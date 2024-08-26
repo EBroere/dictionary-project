@@ -6,8 +6,9 @@ export default function Results(props) {
   if (props.results) {
     return (
       <div className="Results">
-        <h2>{props.results.word}</h2>
+        <h2 className="titleWord">{props.results.word}</h2>
         <Phonetics phonetic={props.results.phonetic} />
+        <hr />
         {props.results.meanings.map(function (meaning, index) {
           return (
             <section key={index}>

@@ -1,3 +1,38 @@
 .Dictionary {
+  color: black;
+    font-weight: 100;
+}
 
+.Dictionary input,
+.btn {
+  box-sizing: border-box;
+  vertical-align: middle;
+}
+
+.Dictionary input {
+  width: 80%;
+  border-radius: 20px;
+  padding: 6px 10px;
+  color: black;
+  background-color: #d9d9d9;
+  border: 1px solid #d9d9d9;
+}
+
+.btn {
+  width: 15%;
+  border-radius: 20px;
+  padding: 6px 10px;
+  background-color: #d9d9d9;
+  border: 1px solid #d9d9d9;
+
+  transition: background-color 0.9s ease;
+  transition: color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #ef7153;
+  color: white;
+}
+
+.Search {
 }
