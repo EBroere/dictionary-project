@@ -1,6 +1,6 @@
 .Dictionary {
   color: black;
-    font-weight: 100;
+  font-weight: 100;
 }
 
 .Dictionary input,
@@ -11,6 +11,7 @@
 
 .Dictionary input {
   width: 80%;
+  margin-left: 20px;
   border-radius: 20px;
   padding: 6px 10px;
   color: black;
@@ -18,10 +19,22 @@
   border: 1px solid #d9d9d9;
 }
 
+.Search {
+  padding-left: 20px !important;
+}
+
+.Dictionary ::placeholder {
+  padding-left: 10px;
+}
+
+.Dictionary input {
+}
+
 .btn {
   width: 15%;
   border-radius: 20px;
   padding: 6px 10px;
+  margin-left: 10px;
   background-color: #d9d9d9;
   border: 1px solid #d9d9d9;
 
@@ -32,7 +45,4 @@
 .btn:hover {
   background-color: #ef7153;
   color: white;
-}
-
-.Search {
 }
