@@ -2,14 +2,14 @@
   color: #ef7153;
   font-size: 25px;
   font-style: italic;
-  text-transform: capitalize;
+  text-transform: lowercase;
 }
 
 .titleWord {
   margin-top: 30px;
   color: #ef7153;
   font-size: 25px;
-  text-transform: capitalize;
+  text-transform: lowercase;
 }
 
 .titlePartOfSpeech {
@@ -17,7 +17,7 @@
   color: #ef7153;
   font-size: 20px;
   font-style: italic;
-  text-transform: capitalize;
+  text-transform: lowercase;
 }
 
 .titlephonetic {
@@ -30,9 +30,13 @@
   color: #ef7153;
   font-size: 25px;
   font-style: italic;
-  text-transform: capitalize;
+  text-transform: lowercase;
 }
 
-ul {
+ul,
+li {
   list-style-type: none !important;
+  display: inline-block;
+  padding-right: 15px;
+  line-height: 1;
 }

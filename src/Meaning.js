@@ -18,6 +18,7 @@ export default function Meaning(props) {
         <h3 className="titleSynonyms">Synomym</h3>
         <Synonyms synonyms={props.meaning.synonyms} />
         <hr />
+        <h3 className="title">Photo</h3>
       </div>
     </div>
   );
