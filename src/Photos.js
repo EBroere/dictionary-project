@@ -6,6 +6,7 @@ export default function Photos(props) {
     return (
       <section className="Photos">
         <div className="row">
+          <h3 className="title">photo</h3>
           {props.photos.map((images) => (
             <div className="col-4">
               <a href={images.src.original} target="_blank" rel="noreferrer">

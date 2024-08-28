@@ -2,3 +2,10 @@
   border-radius: 8px;
   margin-bottom: 20px;
 }
+
+.title {
+  color: #ef7153;
+  font-size: 25px;
+  font-style: italic;
+  text-transform: lowercase;
+}

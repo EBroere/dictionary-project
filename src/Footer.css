@@ -1,13 +1,13 @@
 .Footer {
-  border-top: 30px solid #f9f7fe;
+  border-top: 30px solid white;
   text-align: center;
-  background-color: #ef7153;
-  opacity: 60%;
+  background-color: #F5AD9D;
 }
 
 .Footer p {
   font-size: 15px;
   color: black;
+  font-weight: 200;
 }
 
 .Footer a {
